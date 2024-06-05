@@ -1,0 +1,8 @@
+{
+	// The order of the files is important since later files override previous ones
+	"dockerComposeFile": ["../docker-compose.yml", "docker-compose.dev.yml"],
+
+	"service": "Service1",
+	"workspaceFolder": "/workspace",
+	"shutdownAction": "stopCompose"
+}
